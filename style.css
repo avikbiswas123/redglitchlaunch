@@ -1,0 +1,1192 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: gilroy;
+}
+html,body{
+        height: 100%;
+        width: 100%;
+        background-color: #111;
+        overflow: auto;
+        position: relative;
+        overflow-x: hidden;
+        
+
+}
+.main{
+overflow: auto;
+background-color: rgba(255, 235, 205, 0);
+height: 100dvh;
+width: 100dvw;
+
+
+}
+nav{
+ opacity: 1;
+ 
+display: flex;
+justify-content: space-between;
+font-size: 3.5vmin;
+color: aliceblue;
+padding: 4vmin 5vmin;
+position: fixed;
+font-weight: 900;
+top: 0;
+width: 100%;
+height: 4.1vmin;
+mix-blend-mode: difference;
+z-index: 100;
+
+}
+.part2{
+
+cursor: pointer;
+
+
+}
+
+.page1{
+
+
+background-image: url(circuits-minimalism-electronic-abstract-wallpaper-thumb.jpg);
+width: 100%;
+height: 100%;
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20vmin;
+
+
+}
+.container{
+position: absolute;
+background-color: #111111aa;
+height: 100%;
+width: 100%;
+}
+.name{
+
+font-size: 8vmin;
+color: aliceblue;
+overflow: hidden;
+}
+.motto{
+
+font-size: 6vmin;
+color: aliceblue;
+
+
+}
+.hero{
+
+display: flex;
+flex-direction: column;
+flex-shrink: inherit;
+align-items: center;
+justify-content: center;
+height: 80vmin;
+gap: 3vmin;
+mix-blend-mode: difference;
+}
+.explore button{
+width: 34vmin;
+align-items: center;
+justify-content: center;
+height: 5vmin;
+display: flex;
+overflow: hidden;
+gap:2vmin;
+
+}
+.explore a{
+font-size: 2.5vmin;
+text-decoration: none;
+color: #010000;
+font-weight: 900;
+
+
+}
+.grow{
+background-color: aqua;
+border-radius: 50%;
+height: 3vmin;
+width: 3vmin;
+font-size: 3vmin;
+mix-blend-mode: difference;
+}
+.name span{
+display: inline-block;
+
+
+}
+.page2{
+top: 100dvh;
+color: #01000000;
+position: absolute;
+height: 100%;
+padding: 10vmin;
+display: flex;
+flex-direction: column;
+gap: 5vmin;
+justify-content: center;
+text-align: justify;
+width: 100%;
+
+}
+.aboutus{
+
+font-size: 3vw;
+
+color: aliceblue;
+
+}
+.des{
+
+color: aliceblue;
+
+
+}
+.page3{
+position: absolute;
+background-color: blanchedalmond;
+margin: 0;
+padding: 10vmin;
+left: 0vmin;
+top:200%;
+width:100%;
+height: 100%;
+color: #010000;
+
+}
+.page3 .lfr, .page3 .soccerbot, .page3 .digitalclock {
+        font-size: 3.5vmin;
+        border-bottom: 1px solid black;
+        padding: 4vmin;
+        position: relative; /* Added for positioning images inside div */
+    }
+
+    .work {
+        font-size: 3vw;
+    }
+
+    .imglfr, .imgsoccer, .imgdigitalclock {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none; /* Prevent images from interfering with hover */
+    }
+
+    .imglfr img, .imgsoccer img , .imgdigitalclock img{
+        width: 18vw;
+        height:18vh; /* Adjust image size as needed */
+    }
+.string{
+
+width: 100%;
+
+
+}
+.page5{
+
+position: absolute;
+top: 300%;
+color: aliceblue;
+height: 100vh;
+padding: 10vmin;
+
+}
+.perticipation{
+font-size: 3vw;
+
+
+
+
+
+
+
+
+}
+.overmenu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(59, 2, 2);
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 1s ease;
+        text-decoration: none;
+    }
+    
+    .overmenu div {
+        margin: 20px 0;
+        font-size: 2rem;
+        color: rgb(252, 249, 249);
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .overmenu a{
+
+        text-decoration: none;
+    }
+.ignition,.ictfest,.vu{
+
+border-bottom: 2px solid aliceblue;
+font-size: 3.5vmin;
+padding: 5vmin;
+width: 87vw;
+
+}
+.page6{
+position: absolute;
+top: 405%;
+background-color: antiquewhite;
+height: 100%;
+width: 100%;
+font-size: 3vw;
+display: flex;
+flex-wrap: wrap;
+flex-shrink: inherit;
+flex-direction: column;
+gap: 25vh;
+}
+.members{
+margin-left: 10vmin;
+padding-top: 10vmin;
+padding-bottom: 0;
+border-bottom: 2px solid red;
+width: 90vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.members i{
+font-size: 3vw;
+
+}
+.viewmore:hover{
+color: red;
+height: 8vh;
+cursor: pointer;
+
+}
+.img img{
+width: 13vw;
+height: 13vw;
+border-radius: 3%;
+object-fit: cover;
+
+}
+.card{
+width: 15vw;
+flex-wrap: wrap;
+flex-shrink: unset;
+border: 2px solid #111;
+background-color:bisque;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1vw .5vw;
+border-radius: 3%;
+gap: 2vmin;
+}
+.card:hover{
+
+
+background-color: darkgray;
+
+
+}
+
+.names{
+color: black;
+font-size: 1.2vw;
+font-weight: 900;
+white-space: nowrap;
+
+}
+.cardcontainer{
+gap: 3vw;
+display: flex;
+align-items: center;
+padding-left: 6vw;
+width: 100vw;
+height: 30vh;
+}
+.cardcontainer1,.cardcontainer2,.cardcontainer3,.cardcontainer4{
+        gap: 3vw;
+        display: flex;
+        align-items: center;
+        padding-left: 6vw;
+        width: 100vw;
+        height: 30vh;
+
+
+}
+.sociallink a{
+width: 2vw;
+height: 2vw;
+text-decoration: none;
+color: black;
+font-size: 1.2vw;
+border: 1px solid black;
+padding: .2vw;
+border-radius: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sociallink a:hover{
+color: antiquewhite;
+background-color: #010000;
+
+}
+.sociallink{
+display: flex;
+gap: 1vmin;
+
+
+
+}
+.sociallink a i:hover{
+
+        color: antiquewhite;
+        background-color: #010000;
+        
+
+
+}
+.sociallink a i{
+width: 2.2vw;
+        text-decoration: none;
+        color: black;
+        font-size: 1.4vw;
+        height: 2vw;
+        padding: .3vw;
+        border-radius: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+}
+.overpage6{
+justify-content: center;
+display: flex;
+position: absolute;
+top: 405%;
+background-color: #111111;
+flex-direction: column;
+gap: 10vw;
+height: 160%;
+padding-right: 0vh;
+padding-top: 25vw;
+font-size: 5vh;
+align-items: center;
+right: -120%;
+
+z-index: 20;
+}
+.closeoverpage6{
+cursor: pointer;
+color: antiquewhite;
+font-size: 3vw;
+}
+.closeoverpage6{
+text-decoration: none;
+
+}
+.closeoverpage6:hover{
+color:red;
+
+
+}
+
+.page7{
+
+position: absolute;
+top: 525%;
+display: flex;
+flex-direction: column;
+gap: 5vw;
+padding-left: 10vw;
+
+}
+.contactinfo{
+
+color: aliceblue;
+font-size: 3vw;
+
+}
+.sociallinkss{
+text-decoration: none;
+display: flex;
+gap: 8vw;
+color: aliceblue;
+
+}
+.sociallinkss a{
+
+text-decoration: none;
+color: aliceblue;
+font-size: 3vw;
+
+}
+.sociallinkss a i{
+
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 3vw;
+        
+        }
+        .usefullinks{
+
+color: aliceblue;
+font-size: 3vw;
+
+        }
+        .footernav{
+
+display: flex;
+flex-direction: column;
+gap: 2vw;
+
+margin-bottom: 4vw;
+
+        }
+.footernav a{
+color: aliceblue;
+font-size: 2vw;
+text-decoration: none;
+}
+footer{
+display: flex;
+justify-content: center;
+width: 80vw;
+padding-bottom: 4vw;
+color: aliceblue;
+font-size: 2vw;
+margin-left: 0;
+
+}
+footer a{
+
+
+color: aliceblue;
+
+
+}
+
+@media screen and (max-width:360px) and (max-height:640px){
+        .aboutus {
+                font-size: 5vh;
+                color: aliceblue;
+            }
+            .page2{
+top:104dvh
+
+
+            }   
+            .page3{
+
+top:213%;
+height: 62%;
+            } 
+            .work{
+                font-size: 8vw;
+            } 
+            .page3 .lfr, .page3 .soccerbot, .page3 .digitalclock{
+                font-size: 5.5vmin;
+
+            }
+            .page5{
+
+top: 285%;
+height: 65vh;
+            }
+            .perticipation{
+                font-size: 8vw;
+            }
+            .ignition, .ictfest, .vu {
+                border-bottom: 2px solid aliceblue;
+                font-size: 5.5vmin;
+                padding: 5vmin;
+                width: 87vw;
+            }
+            .page6 {
+                position: absolute;
+                top: 346%;
+                background-color: antiquewhite;
+                height: 243%;
+                width: 100%;
+                font-size: 6vw;
+                display: flex;
+                flex-wrap: wrap;
+                flex-shrink: inherit;
+                flex-direction: column;
+                gap: 2vh;
+            }
+            .cardcontainer {
+                gap: 3vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 6vw;
+                width: 100vw;
+                height: 30vh;
+
+            }
+            .img img {
+                width: 54vw;
+                height: 54vw;
+                border-radius: 8%;
+                object-fit: cover;
+            }
+            .card {
+                width: 58vw;
+                flex-wrap: wrap;
+                flex-shrink: unset;
+                border: 2px solid #111;
+                background-color: bisque;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2vw 1.5vw;
+                border-radius: 8%;
+                gap: 2vmin;
+            }
+            .names {
+                color: black;
+                font-size: 4.2vw;
+                font-weight: 900;
+                white-space: nowrap;
+            }
+            .sociallink a {
+                width: 8vw;
+                height: 8vw;
+                text-decoration: none;
+                color: black;
+                font-size: 5.2vw;
+                border: 1px solid black;
+                padding: .2vw;
+                border-radius: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .sociallink a i {
+                width: 8vw;
+                text-decoration: none;
+                color: black;
+                font-size: 5.2vw;
+                height: 8vw;
+                padding: .3vw;
+                border-radius: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+                .page7 {
+                        position: absolute;
+                        top: 595%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5vw;
+                        padding-left: 10vw;
+                        height: 100vh;
+                    }
+                    .overpage6 {
+                        justify-content: center;
+                        display: flex;
+                        position: absolute;
+                        top: 346%;
+                        background-color: #111111;
+                        flex-direction: column;
+                        gap: 0vw;
+                        height: 752vh;
+                        padding-right: 0vh;
+                        padding-top: 0;
+                        font-size: 5vh;
+                        align-items: center;
+                        right: -120%;
+                        z-index: 20;
+                    }
+                    .cardcontainer1, .cardcontainer2, .cardcontainer3, .cardcontainer4 {
+                        gap: 3vw;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 6vw;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: 234vh;
+                    }
+                    .contactinfo {
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .sociallinkss a {
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 6vw;
+                    }
+                    .sociallinkss a i {
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .usefullinks {
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .footernav a {
+                        color: aliceblue;
+                        font-size: 4vw;
+                        text-decoration: none;
+                    }
+                    footer {
+                        display: flex;
+                        justify-content: center;
+                        width: 80vw;
+                        padding-bottom: 4vw;
+                        color: aliceblue;
+                        font-size: 3vw;
+                        margin-left: 0;
+                    }
+                    nav {
+                        opacity: 1;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 4.5vmin;
+                        color: aliceblue;
+                        padding: 4vmin 5vmin;
+                        position: fixed;
+                        font-weight: 900;
+                        top: 0;
+                        width: 100%;
+                        height: 4.1vmin;
+                        mix-blend-mode: difference;
+                        z-index: 100;
+                    }
+                    .name {
+                        font-size: 10vmin;
+                        color: aliceblue;
+                        overflow: hidden;
+                    }
+                    .motto {
+                        font-size: 8vmin;
+                        color: aliceblue;
+                    }
+                    .explore button {
+                        width: 45vmin;
+                        align-items: center;
+                        justify-content: center;
+                        height: 8vmin;
+                        display: flex;
+                        overflow: hidden;
+                        gap: 2vmin;
+                    }
+                    .closeoverpage6 {
+                        cursor: pointer;
+                        color: antiquewhite;
+                        font-size: 5vw;
+                    }
+            
+}
+@media screen and (max-width:360px),(max-width:500px) and (max-height:740px){
+        .aboutus {
+                font-size: 5vh;
+                color: aliceblue;
+            }
+            .page2{
+top:104dvh
+
+
+            }   
+            .page3{
+
+top:213%;
+height: 62%;
+            } 
+            .work{
+                font-size: 8vw;
+            } 
+            .page3 .lfr, .page3 .soccerbot, .page3 .digitalclock{
+                font-size: 5.5vmin;
+
+            }
+            .page5{
+
+top: 285%;
+height: 65vh;
+            }
+            .perticipation{
+                font-size: 8vw;
+            }
+            .ignition, .ictfest, .vu {
+                border-bottom: 2px solid aliceblue;
+                font-size: 5.5vmin;
+                padding: 5vmin;
+                width: 87vw;
+            }
+            .page6 {
+                position: absolute;
+                top: 346%;
+                background-color: antiquewhite;
+                height: 243%;
+                width: 100%;
+                font-size: 6vw;
+                display: flex;
+                flex-wrap: wrap;
+                flex-shrink: inherit;
+                flex-direction: column;
+                gap: 2vh;
+            }
+            .cardcontainer {
+                gap: 3vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 6vw;
+                width: 100vw;
+                height: 30vh;
+
+            }
+            .img img {
+                width: 54vw;
+                height: 54vw;
+                border-radius: 8%;
+                object-fit: cover;
+            }
+            .card {
+                width: 58vw;
+                flex-wrap: wrap;
+                flex-shrink: unset;
+                border: 2px solid #111;
+                background-color: bisque;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2vw 1.5vw;
+                border-radius: 8%;
+                gap: 2vmin;
+            }
+            .names {
+                color: black;
+                font-size: 4.2vw;
+                font-weight: 900;
+                white-space: nowrap;
+            }
+            .sociallink a {
+                width: 8vw;
+                height: 8vw;
+                text-decoration: none;
+                color: black;
+                font-size: 5.2vw;
+                border: 1px solid black;
+                padding: .2vw;
+                border-radius: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .sociallink a i {
+                width: 8vw;
+                text-decoration: none;
+                color: black;
+                font-size: 5.2vw;
+                height: 8vw;
+                padding: .3vw;
+                border-radius: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+                .page7 {
+                        position: absolute;
+                        top: 595%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5vw;
+                        padding-left: 10vw;
+                        height: 100vh;
+                    }
+                    .overpage6 {
+                        justify-content: center;
+                        display: flex;
+                        position: absolute;
+                        top: 346%;
+                        background-color: #111111;
+                        flex-direction: column;
+                        gap: 0vw;
+                        height: 752vh;
+                        padding-right: 0vh;
+                        padding-top: 0;
+                        font-size: 5vh;
+                        align-items: center;
+                        right: -120%;
+                        z-index: 20;
+                    }
+                    .cardcontainer1, .cardcontainer2, .cardcontainer3, .cardcontainer4 {
+                        gap: 3vw;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 6vw;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: 234vh;
+                    }
+                    .contactinfo {
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .sociallinkss a {
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 6vw;
+                    }
+                    .sociallinkss a i {
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .usefullinks {
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .footernav a {
+                        color: aliceblue;
+                        font-size: 4vw;
+                        text-decoration: none;
+                    }
+                    footer {
+                        display: flex;
+                        justify-content: center;
+                        width: 80vw;
+                        padding-bottom: 4vw;
+                        color: aliceblue;
+                        font-size: 3vw;
+                        margin-left: 0;
+                    }
+                    nav {
+                        opacity: 1;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 4.5vmin;
+                        color: aliceblue;
+                        padding: 4vmin 5vmin;
+                        position: fixed;
+                        font-weight: 900;
+                        top: 0;
+                        width: 100%;
+                        height: 4.1vmin;
+                        mix-blend-mode: difference;
+                        z-index: 100;
+                    }
+                    .name {
+                        font-size: 10vmin;
+                        color: aliceblue;
+                        overflow: hidden;
+                    }
+                    .motto {
+                        font-size: 8vmin;
+                        color: aliceblue;
+                    }
+                    .explore button {
+                        width: 45vmin;
+                        align-items: center;
+                        justify-content: center;
+                        height: 8vmin;
+                        display: flex;
+                        overflow: hidden;
+                        gap: 2vmin;
+                    }
+                    .closeoverpage6 {
+                        cursor: pointer;
+                        color: antiquewhite;
+                        font-size: 5vw;
+                    }
+            
+}
+
+@media screen and (max-width:600px) and (max-height:1024px){
+        .aboutus {
+                font-size: 5vh;
+                color: aliceblue;
+            }
+            .page2{
+top:104dvh
+
+
+            }   
+            .page3{
+
+top:213%;
+height: 62%;
+            } 
+            .work{
+                font-size: 8vw;
+            } 
+            .page3 .lfr, .page3 .soccerbot, .page3 .digitalclock{
+                font-size: 5.5vmin;
+
+            }
+            .page5{
+
+top: 285%;
+height: 65vh;
+            }
+            .perticipation{
+                font-size: 8vw;
+            }
+            .ignition, .ictfest, .vu {
+                border-bottom: 2px solid aliceblue;
+                font-size: 5.5vmin;
+                padding: 5vmin;
+                width: 87vw;
+            }
+            .page6 {
+                position: absolute;
+                top: 346%;
+                background-color: antiquewhite;
+                height: 252%;
+                width: 100%;
+                font-size: 6vw;
+                display: flex;
+                flex-wrap: wrap;
+                flex-shrink: inherit;
+                flex-direction: column;
+                gap: 2vh;
+            }
+            .cardcontainer {
+                gap: 3vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 6vw;
+                width: 100vw;
+                height: 30vh;
+
+            }
+            .img img {
+                width: 54vw;
+                height: 54vw;
+                border-radius: 8%;
+                object-fit: cover;
+            }
+            .card {
+                width: 58vw;
+                flex-wrap: wrap;
+                flex-shrink: unset;
+                border: 2px solid #111;
+                background-color: bisque;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2vw 1.5vw;
+                border-radius: 8%;
+                gap: 2vmin;
+            }
+            .names {
+                color: black;
+                font-size: 4.2vw;
+                font-weight: 900;
+                white-space: nowrap;
+            }
+            .sociallink a {
+                width: 8vw;
+                height: 8vw;
+                text-decoration: none;
+                color: black;
+                font-size: 5.2vw;
+                border: 1px solid black;
+                padding: .2vw;
+                border-radius: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .sociallink a i {
+                width: 8vw;
+                text-decoration: none;
+                color: black;
+                font-size: 5.2vw;
+                height: 8vw;
+                padding: .3vw;
+                border-radius: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+                .page7 {
+                        position: absolute;
+                        top: 604%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5vw;
+                        padding-left: 10vw;
+                        height: 100vh;
+                    }
+                    .overpage6 {
+                        justify-content: center;
+                        display: flex;
+                        position: absolute;
+                        top: 346%;
+                        background-color: #111111;
+                        flex-direction: column;
+                        gap: 0vw;
+                        height: 752vh;
+                        padding-right: 0vh;
+                        padding-bottom: 179vh;
+                        font-size: 5vh;
+                        align-items: center;
+                        right: -120%;
+                        z-index: 20;
+                    }
+                    .cardcontainer1, .cardcontainer2, .cardcontainer3, .cardcontainer4 {
+                        gap: 3vw;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 6vw;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: 183vh;
+                    }
+                    .contactinfo {
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .sociallinkss a {
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 6vw;
+                    }
+                    .sociallinkss a i {
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .usefullinks {
+                        color: aliceblue;
+                        font-size: 7vw;
+                    }
+                    .footernav a {
+                        color: aliceblue;
+                        font-size: 4vw;
+                        text-decoration: none;
+                    }
+                    footer {
+                        display: flex;
+                        justify-content: center;
+                        width: 80vw;
+                        padding-bottom: 4vw;
+                        color: aliceblue;
+                        font-size: 3vw;
+                        margin-left: 0;
+                    }
+                    nav {
+                        opacity: 1;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 4.5vmin;
+                        color: aliceblue;
+                        padding: 4vmin 5vmin;
+                        position: fixed;
+                        font-weight: 900;
+                        top: 0;
+                        width: 100%;
+                        height: 4.1vmin;
+                        mix-blend-mode: difference;
+                        z-index: 100;
+                    }
+                    .name {
+                        font-size: 10vmin;
+                        color: aliceblue;
+                        overflow: hidden;
+                    }
+                    .motto {
+                        font-size: 8vmin;
+                        color: aliceblue;
+                    }
+                    .explore button {
+                        width: 45vmin;
+                        align-items: center;
+                        justify-content: center;
+                        height: 8vmin;
+                        display: flex;
+                        overflow: hidden;
+                        gap: 2vmin;
+                    }
+                    .closeoverpage6 {
+                        cursor: pointer;
+                        color: antiquewhite;
+                        font-size: 5vw;
+                    }
+            
+}
+@media screen and (max-width:360px) and (max-height:640px){}
+@media screen and (max-width:360px) and (max-height:640px){}
+@media screen and (max-width:360px) and (max-height:640px){}
+@media screen and (max-width:360px) and (max-height:640px){}
+@media screen and (max-width:360px) and (max-height:640px){}
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+@media screen and (max-width:360px) and (max-height:640px){}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
