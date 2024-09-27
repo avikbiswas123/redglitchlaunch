@@ -1138,7 +1138,13 @@ height: 65vh;
                     }
             
 }
-@media screen and (max-width:360px) and (max-height:640px){}
+@media screen and (max-width:853px) and (max-height:1280px){
+    .aboutus {
+        font-size: 5vw;
+        color: aliceblue;
+    }
+    
+}
 @media screen and (max-width:360px) and (max-height:640px){}
 @media screen and (max-width:360px) and (max-height:640px){}
 @media screen and (max-width:360px) and (max-height:640px){}
