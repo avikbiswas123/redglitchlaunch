@@ -115,9 +115,7 @@ document.querySelector(".closeoverpage6").addEventListener("click",()=>{
     
     })
     
-    document.querySelector(".overpage6").style.position="absolute"
-    document.querySelector(".page7").style.top="525%"
-    })
+    
     document.querySelector(".lfr").addEventListener("mouseenter", () => {
         gsap.to(".imglfr", {
             opacity: 1,
