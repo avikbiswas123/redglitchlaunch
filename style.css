@@ -257,6 +257,11 @@ flex-shrink: inherit;
 flex-direction: column;
 gap: 25vh;
 }
+.overpage6>div{
+
+font-size: 5vh;
+    color: antiquewhite;
+}
 .members{
 margin-left: 10vmin;
 padding-top: 10vmin;
@@ -386,6 +391,7 @@ width: 2.2vw;
 
 
 }
+
 .overpage6{
 display: flex;
 position: absolute;
