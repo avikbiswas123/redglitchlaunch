@@ -246,7 +246,7 @@ width: 87vw;
 }
 .page6{
 position: absolute;
-top: 405%;
+top: 426vh;
 background-color: antiquewhite;
 height: 100%;
 width: 100%;
@@ -284,8 +284,15 @@ border-radius: 3%;
 object-fit: cover;
 
 }
+iframe{
+position:absolute;
+top: 150vh;
+left: 0;
+width: 100dvw;
+height: 150vh;
+}
 .card{
-width: 15vw;
+width: 18vw;
 flex-wrap: wrap;
 flex-shrink: unset;
 border: 2px solid #111;
@@ -314,21 +321,21 @@ white-space: nowrap;
 
 }
 .cardcontainer{
-gap: 3vw;
+gap: 1vw;
 display: flex;
 align-items: center;
-padding-left: 6vw;
+padding-left: 3vw;
 width: 100vw;
 height: 30vh;
 }
-.cardcontainer1,.cardcontainer2,.cardcontainer3,.cardcontainer4{
-        gap: 3vw;
+.cardcontainerover,.cardcontainer2,.cardcontainer3,.cardcontainer4{
+        gap: 1vw;
         display: flex;
         align-items: center;
-        padding-left: 6vw;
+        padding-left: 0vw;
         width: 100vw;
         height: 30vh;
-
+justify-content: center;
 
 }
 .sociallink a{
@@ -380,14 +387,13 @@ width: 2.2vw;
 
 }
 .overpage6{
-justify-content: center;
 display: flex;
 position: absolute;
-top: 405%;
+top: 426vh;
 background-color: #111111;
 flex-direction: column;
 gap: 10vw;
-height: 160%;
+height: 780vh;
 padding-right: 0vh;
 padding-top: 25vw;
 font-size: 5vh;
@@ -414,7 +420,7 @@ color:red;
 .page7{
 
 position: absolute;
-top: 525%;
+top: 537vh;
 display: flex;
 flex-direction: column;
 gap: 5vw;
@@ -491,12 +497,12 @@ height: 4vw;
 
 
 }
-@media screen and (max-width:768px) and (max-width:608px) {
+@media screen and (max-width:768px) and (min-width:426) and (max-height:608px) {
     .page6 {
         position: absolute;
-        top: 405%;
+        top: 405vw;
         background-color: antiquewhite;
-        height: 166vh;
+        height: 206vh;
         width: 100%;
         font-size: 3vw;
         display: flex;
@@ -512,17 +518,51 @@ height: 4vw;
         flex-direction: column;
         padding-left: 6vw;
         width: 100vw;
-height: 30vh;
+height: 30vw;
 
     }
+.overpage6{
 
+flex-direction: column;
+top: 404vw;
+height: 264vw;
+}
 .page7 {
     position: absolute;
-    top: 525vh;
+    top: 580vw;
     display: flex;
     flex-direction: column;
     gap: 5vw;
     padding-left: 10vw;
+}
+.cardcontainer1, .cardcontainer2, .cardcontainer3, .cardcontainer4 {
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+    padding-left: 6vw;
+    flex-direction: column;
+    width: 100vw;
+    height: 264vw;
+}
+}
+@media screen and (max-width:425px) and (max-height:608px){
+.aboutus{
+font-size: 6vh;
+
+
+}
+.work{
+
+font-size: 6vh;
+
+}
+
+
+.page3 .lfr, .page3 .soccerbot, .page3 .digitalclock {
+    font-size: 3.5vh;
+    border-bottom: 1px solid black;
+    padding: 4vmin;
+    position: relative;
 }
 }
 

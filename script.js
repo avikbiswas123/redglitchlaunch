@@ -115,7 +115,9 @@ document.querySelector(".closeoverpage6").addEventListener("click",()=>{
     
     })
     
-    
+    document.querySelector(".overpage6").style.position="absolute"
+    document.querySelector(".page7").style.top="537vh"
+    })
     document.querySelector(".lfr").addEventListener("mouseenter", () => {
         gsap.to(".imglfr", {
             opacity: 1,
@@ -190,6 +192,12 @@ document.querySelector(".closeoverpage6").addEventListener("click",()=>{
         });
     });
 
-
+const height=window.innerHeight
+const width=window.innerWidth
 
     
+if(height>width){
+document.querySelector(".")
+
+
+}
